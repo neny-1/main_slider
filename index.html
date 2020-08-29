@@ -1,0 +1,141 @@
+<!--
+** product slider
+** this slider has no padding or margin on left or right  
+** Flexible in width because it takes the width of the parent  div
+** for ex 
+<div style{width:1080px}>
+	///slider code
+</div>
+** if I put slider in div and this div has width product slider(our slider) will take this width 
+** if I put slider in html page with out any parent it will take width 100 %
+** this slider can move by 4 ways 
+** first  ==>	by click prev or next button
+** second ==>	by move keyborad key (left =>) or (right <=)
+** third  ==> 	by drag the content by mouse 
+** fours  ==>   in mobile by tuch touch and drag the mobile screen 
+** all css class or html class are not similar to other class in html page
+** because classes not puplic 
+** this slider can work auto play and slider with button and drag 
+** when change autoplay variable to [on] slider will work as auto play with out no drag and button 
+** when change autoplay variable to [off] slider will work with buttons and drag with out no auto play 
+-->
+<html>
+<head>
+<title>mainn slider</title>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content ="yes">
+<meta name="viewport" content ="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=yes">
+<meta http-equiv="X-UA-Compatible" content ="IE=edge">
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="product-slbody">
+<div class="container">
+<div class="cortain">  
+<div class="convoy">
+<div class="content">
+<span class="sale">SALE</span>
+<img src="1.jpg">
+<div class="data">
+<span class="title">tomato class 1</span>
+<span class="price">29.90LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">soldout</span>
+<img src="2.jpg">
+<div class="data">
+<span class="title">tomato class 2</span>
+<span class="price">21.90LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">sale out</span>
+<img src="3.jpg">
+<div class="data">
+<span class="title">tomato class 2</span>
+<span class="price">19.5LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">sale out</span>
+<img src="4.jpg">
+<div class="data">
+<span class="title">tomato class 2</span>
+<span class="price">23.90LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">sale out</span>
+<img src="5.jpg">
+<div class="data">
+<span class="title">test</span>
+<span class="price">15.60LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">sale out</span>
+<img src="6.jpg">
+<div class="data">
+<span class="title">test test</span>
+<span class="price">21.90LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">sale out</span>
+<img src="7.jpg">
+<div class="data">
+<span class="title">tomato class 2</span>
+<span class="price">21.90LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">SALE</span>
+<img src="8.jpg">
+<div class="data">
+<span class="title">tomato class 2</span>
+<span class="price">21.90LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">saleout</span>
+<img src="9.jpg">
+<div class="data">
+<span class="title">tomato class 2</span>
+<span class="price">21.90LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">SALE</span>
+<img src="10.jpg">
+<div class="data">
+<span class="title">tomato class 2</span>
+<span class="price">21.90LE</span>
+</div>
+</div>
+<div class="content">
+<span class="sale">SALE</span>
+<img src="11.jpg">
+<div class="data">
+<span class="title">tomato class 2</span>
+<span class="price">21.90LE</span>
+</div>
+</div>
+
+</div>
+<!--controls slides -->
+<div class="xcontrols">
+</div>
+<div class="buttons">
+<div class="prev hidebtn"><font>&#10094;</font></div>
+<div class="next"><font>&#10095;</font></div>
+</div>
+</div><!--------------------------------end cortain ---------------------------------------------->
+</div><!--------------------------------end container  ---------------------------------------------->
+</div><!--end slider body-->
+</div>
+<script src="script.js"></script>
+</body>
+</html>
